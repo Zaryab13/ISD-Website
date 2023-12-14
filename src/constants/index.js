@@ -2,10 +2,6 @@ import { web, mobile, backend, creator } from "../assets";
 
 const navLinks = [
   {
-    id: "team",
-    title: "Team",
-  },
-  {
     id: "services",
     title: "Services",
   },
@@ -15,11 +11,17 @@ const navLinks = [
   },
   {
     id: "about",
-    title: "About Us",
-  },{
-    id:'blog',
-    title: 'Blog'
-  }
+
+    title: "About",
+  },
+  {
+    id: "team",
+    title: "Team",
+  },
+  {
+    id: "blog",
+    title: "Blog",
+  },
 ];
 
 const services = [

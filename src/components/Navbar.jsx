@@ -4,7 +4,7 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { NavLink, Link } from "react-router-dom";
 
-const Navbar = ({ onActivePage }) => {
+const Navbar = () => {
   // To track which navLink is Active
   const [activeLink, setActiveLink] = useState("");
   // isScrolled Styles applied when the user scrolls

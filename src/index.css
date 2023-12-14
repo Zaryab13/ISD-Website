@@ -82,5 +82,9 @@
     transition-delay: 0.2s;
     color: aliceblue;
   } */
+
+  .member-card:hover .member-img{
+    box-shadow:  0 0 5px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
 }
 

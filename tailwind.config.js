@@ -9,6 +9,9 @@ export default {
         accent: "#235391",
         secondary: "#bcbcbc",
       },
+      boxShadow: {
+        '3xl': ' 0 0 5px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.2)',
+      },
       backgroundImage: {
         "hero-background": "url('./src/assets/hero-bg.png')",
       }
