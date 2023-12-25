@@ -11,7 +11,6 @@ const navLinks = [
   },
   {
     id: "about",
-
     title: "About",
   },
   {

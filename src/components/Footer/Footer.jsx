@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="absolute top-0 border w-3/4 h-1 border-t-2 border-transparent bg-gradient-to-r from-transparent via-slate-800 opacity-50 to-transparent backdrop-blur animate-fadeBorder"/>
         <div>Copyright</div>
         <div className="flex gap-14">
-
+        
         </div>
       </footer>
   );
