@@ -4,7 +4,7 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { NavLink, Link } from "react-router-dom";
 
-const Navbar = () => {
+const Header = () => {
   // To track which navLink is Active
   const [activeLink, setActiveLink] = useState("");
   // isScrolled Styles applied when the user scrolls
@@ -40,13 +40,13 @@ const Navbar = () => {
   const memoizedNavLinks = useMemo(() => {
     return navLinks.map((link) => (
       <li
-        key={link.id}
+        key={link.name}
         className={`hover:text-primary relative text-[18-px] font-medium cursor-pointer py-2 px-1`}
       >
-        <NavLink to={link.id} className={({ isActive }) => [
+        <NavLink to={link.href} className={({ isActive }) => [
           isActive ? " text-primary active-navlink" : "text-slate-800"
         ]}>
-          {link.title}
+          {link.name}
         </NavLink>
       </li>
     ));
@@ -81,13 +81,13 @@ const Navbar = () => {
     </div>
   );
 
-  const navbarClasses = `${styles.paddingX} navbar w-full fixed flex items-center py-5 z-20 bg-transparent animation-slideIn transition-all duration-300 ease-in-out
+  const navbarClasses = `${styles.paddingX} navbar w-full fixed flex items-center z-20 bg-transparent animation-slideIn transition-all duration-300 ease-in-out
   transition-property: background-color, opacity;
 `;
 
   return (
-    <nav className={navbarClasses} ref={navbarRef}>
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+    <header className={navbarClasses} ref={navbarRef}>
+      <nav className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <div className="flex items-center">
           <a href="home">
             <img src={logo} alt="logo" className="w-16 object-contain" />
@@ -99,9 +99,9 @@ const Navbar = () => {
 
         {/* conditional render of mobile navigation */}
         {mobileNavigation}
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 
-export default Navbar;
+export default Header;

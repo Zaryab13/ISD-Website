@@ -1,13 +1,13 @@
-import {styles} from '../../styles'
+import MainLayout from '../MainLayout';
 import OurMission from "./OurMission";
 import TeamMembers from "./TeamMembers";
 
 const About = () => {
   return (
-    <main className={`${styles.paddingX}`}>
+    <MainLayout padding = "True">
       <OurMission />
       <TeamMembers />
-    </main>
+    </MainLayout>
   );
 };
 export default About;

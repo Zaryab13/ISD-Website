@@ -1,12 +1,12 @@
-import Hero from './Hero';
-import Navbar from './Navbar';
+import Homepage from './Homepage';
+import Header from './Header';
 import About from './AboutUs/About';
 import Contact from './ContactUs/Contact';
-import Footer from './Footer/Footer'
+import Footer from './Footer'
 
 export {
-  Hero,
-  Navbar,
+  Homepage,
+  Header,
   About,
   Contact,
   Footer

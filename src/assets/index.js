@@ -1,6 +1,5 @@
 import logo from "./logo.png";
 import arrow from './double-arrow.png';
-import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -37,7 +36,6 @@ import emailIcon from './email.svg';
 export {
   logo,
   arrow,
-  backend,
   creator,
   mobile,
   web,

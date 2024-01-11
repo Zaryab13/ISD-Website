@@ -5,7 +5,7 @@ import InfoCard from "./InfoCard";
 const CardsList = () => {
   console.log(ContactInfo)
   return (
-    <section className={`${styles.paddingX} border border-black pt-20 flex justify-center gap-6`}>
+    <section className={`${styles.paddingX} pt-20 flex justify-center gap-6`}>
       {ContactInfo.map((info) => (
         <InfoCard
           key={info.title}

@@ -1,7 +1,7 @@
 const ContactUsForm = () => {
   return (
     <div className=" flex justify-center order-last md:order-first items-center py-6">
-      <form className="w-2/4 md:w-3/4">
+      <form className="w-2/4 3xl:w-3/4">
         <div className="mb-5">
           <label
             for="name"

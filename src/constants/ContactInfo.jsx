@@ -1,9 +1,11 @@
+import { IoLocationSharp } from "react-icons/io5";
 import {emailIcon, locationIcon, phoneIcon} from '../assets/index';
+
 
 const ContactInfo= [
     {
         title: "Location",
-        description: "Behind Swat Cinema Street Second Last House Upper Floor Shahdara Mingora Swat",
+        description: "Al khaliq market near swat cinema shahdara mingora swat",
         icon: locationIcon
     },
     {

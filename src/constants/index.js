@@ -1,26 +1,36 @@
-import { web, mobile, backend, creator } from "../assets";
+import { web, mobile, creator } from "../assets";
 
 const navLinks = [
   {
-    id: "services",
-    title: "Services",
+    name: "Services",
+    type: "link",
+    href: "/services"
   },
+  
   {
-    id: "contact",
-    title: "Contact",
+    name: "Contact",
+    type: "link",
+    href: "/contact"
   },
+  
   {
-    id: "about",
-    title: "About",
+    name: "About",
+    type: "link",
+    href: "/about"
   },
+  
   {
-    id: "team",
-    title: "Team",
+    name: "Team",
+    type: "link",
+    href: "/team"
   },
+  
   {
-    id: "blog",
-    title: "Blog",
+    name: "Blog",
+    type: "link",
+    href: "/blog"
   },
+  
 ];
 
 const services = [
@@ -34,7 +44,7 @@ const services = [
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: "ICON",
   },
   {
     title: "Content Creator",

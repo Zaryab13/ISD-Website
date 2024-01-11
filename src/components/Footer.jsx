@@ -19,7 +19,7 @@ const Footer = () => {
     };
   }, []);
 
-  const footerClasses = `relative footer w-full bottom-0 h-auto py-8 bg-transparent flex transition-all  duration-1000 flex justify-around pt-4 text-slate-800 ${isScrolled? 'active' : ''}`
+  const footerClasses = `relative footer w-full bottom-0 h-auto py-8 bg-gradient-to-r from-accent from-30% to-secondary flex transition-all  duration-1000 flex justify-around pt-4 text-white ${isScrolled? 'active' : ''}`
 
   return (
       <footer className={footerClasses}>
